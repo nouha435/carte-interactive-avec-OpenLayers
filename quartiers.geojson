@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": { "nom": "Quartier 1" },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [-7.62, 33.58],
+            [-7.60, 33.58],
+            [-7.60, 33.56],
+            [-7.62, 33.56],
+            [-7.62, 33.58]
+          ]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "nom": "Quartier 2" },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [-7.60, 33.58],
+            [-7.58, 33.58],
+            [-7.58, 33.56],
+            [-7.60, 33.56],
+            [-7.60, 33.58]
+          ]]
+        }
+      }
+    ]
+  }
+  

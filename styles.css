@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#map {
+    width: 100vw;
+    height: 100vh;
+}
+
+.ol-popup {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    bottom: 12px;
+    left: -50px;
+    min-width: 150px;
+    display: none;
+}
+
+.ol-popup:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+    transform: translateX(-50%);
+}
